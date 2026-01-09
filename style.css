@@ -15,14 +15,18 @@
 
 /* Navigation Bar Style */
 
-.header{
+#header{
     margin: 0px auto;
+    height:92px;
+    /*position: fixed;
+    overflow: hidden;*/
 }
 .navBar{
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
-    border:2px solid red;
+   
+    
 }
 .navBar img{
     margin: 16px 0px  0px 120px;
@@ -55,4 +59,180 @@
 .button:hover{
     background-color: rgba(44, 64, 14, 0.395);
     color:white;
+}
+/* Banner design */
+.banner{
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-size: cover;
+    /*height:674px;*/
+    text-align: center;
+    /*border: 2px solid red;*/
+    overflow: hidden;
+}
+
+
+
+ .banner-head{
+
+    margin:0px auto;
+    margin-top: 115.5px;
+    margin-bottom: 16px;
+    width: 250px;
+    height: 35pxs;
+    border-radius: 25px;
+    background-color:white;
+    padding: 8px 12px 8px 34px;
+    color:#469165;
+    font-size: 16px;
+   /* border: 2px solid red;*/
+
+
+}
+/*.access{
+    margin-top:166.5px ;
+}*/
+.banner-text span{
+    font-size: 72px;
+    font-style: bold;
+    color:white;
+    
+
+}
+.banner-content{
+
+    font-size: 14px;
+    font-weight:;
+    color:#ffffff;
+    line-height: 24px;
+    margin-bottom: 32PX;
+}
+.banner-btn1{
+    width: 251px;
+    height: 52px;
+    margin-bottom: 179.5px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #469165;
+    font-size: 16px;
+    color:#ffffff
+    
+}
+.btn2{
+    width: 198px;
+    height: 52px;
+     margin-left: 16px;
+     margin-right: 10px;
+     padding-top: 16px;
+     background-color: transparent;
+     border:1px solid #ffffff ;
+}
+.btn2 img{
+        margin-right: 10px;
+}
+.btn1 img{
+    margin-left: 5px;
+}
+
+/*note section */
+.notesSection{
+    margin: 0px auto;
+}
+.notesSection .noteHead h1,p{
+    text-align: center;
+    
+}
+.noteHead h1{
+    margin-top: 80px;
+    margin-bottom: 16px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+.noteHead p{
+    font-size: 16px;
+    color: #627382;
+}
+.noteCard{
+    margin: 0px auto;
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.noteCard .cardDesign{
+    max-width:322px ;
+    
+    border-radius: 8px;
+    padding: 24px;
+     box-shadow: 0px 0px 6px 6px  #e2e0e088;
+    
+    
+    margin-right: 24px;
+    margin-top: 44px;
+    text-align: center;
+}
+.noteCard img{
+    margin-top: 70px;
+   
+    background-color:orangered ;
+    padding: 24px;
+    border-radius: 50%;
+}
+.cardDesign h2{
+    margin-top: 16px;
+    margin-bottom: 16px;
+        font-size: 24px;
+        color: #001931;
+}
+.cardDesign p{
+    font-size: 16px;
+    color: #627382;
+}
+.brainSec{
+        margin: 0px auto;
+        max-width: 1360px;
+        display: flex;
+
+        
+}
+.brainSec img{
+    border-radius: 12px;
+}
+.secondBrainSection{
+    margin-top: 120px;
+}
+.rightBar{
+    margin-top: 120px;
+    margin-left: 60px;
+}
+.brainSec ul {
+    margin-left: 60px;
+    list-style-type: none;
+}
+.rightBar h1{
+    font-size: 16px;
+    color:#469165;
+    font-weight:500;
+    margin-bottom: 16px;
+}
+.rightBar h2{
+    font-size: 48px;
+    font-weight: 700;
+    color:#001931;
+    margin-bottom: 16px;
+}
+.rightBar p{
+    margin-bottom: 40px;
+    text-align: left;
+    font-size: 16px;
+    color: #627382;
+}
+.brainSec ul li{
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #001931;
+    font-weight: 500;
 }
