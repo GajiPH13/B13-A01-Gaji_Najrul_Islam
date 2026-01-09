@@ -18,8 +18,7 @@
 #header{
     margin: 0px auto;
     height:92px;
-    /*position: fixed;
-    overflow: hidden;*/
+
 }
 .navBar{
     margin: 0px auto;
@@ -62,7 +61,7 @@
 }
 /* Banner design */
 .banner{
-    background: url(../assets/hero-bg.png);
+    background: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
     vertical-align: middle;
     background-size: cover;
@@ -86,19 +85,15 @@
     padding: 8px 12px 8px 34px;
     color:#469165;
     font-size: 16px;
-   /* border: 2px solid red;*/
+   
 
 
 }
-/*.access{
-    margin-top:166.5px ;
-}*/
+
 .banner-text span{
     font-size: 72px;
     font-style: bold;
     color:white;
-    
-
 }
 .banner-content{
 
@@ -253,7 +248,6 @@
     background-color: #f7f6f2;
     margin: 0px auto;
     width: 1360px;
-    /*border: 2px solid red;*/
     text-align: center;
 }
 .earlyAccess h1{
